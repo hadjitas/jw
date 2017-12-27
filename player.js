@@ -356,10 +356,10 @@ window.jwplayer=function(e){function t(n){if(r[n])return r[n].exports;var i=r[n]
 jwplayer().registerPlugin("ping","7.0",function(e){var n,i,t,o=this;e.on("playlistItem",function(){e.off("play",null,o),n=e.getPlaylistItem(),i=n.mediaid,i&&e.once("play",function(){t=new Image,t.src="//content.jwplatform.com/ping.gif?event=item&file="+encodeURIComponent(n.file)+"&mediaid="+encodeURIComponent(i)+"&r="+Math.random()},o)})});
 
 var jwDefaults = {
-  "aboutlink": "http://nontonxxi.co/",
-  "abouttext": "NontonXXI.co",
+  "aboutlink": "",
+  "abouttext": "",
   "aspectratio": "16:9",
-  "autostart": false,
+  "autostart": true,
   "cast": {
     "appid": "00000000"
   },
@@ -370,9 +370,9 @@ var jwDefaults = {
   "height": 360,
   "key": "5Hijgy/aw2ckTEdYz1cz4/GzvTt+RKXPlHete+PTq/a41dPxPLrpxuhpJ/w=",
   "logo": {
-    "file": "https://assets-jpcust.jwpsrv.com/watermarks/EYagHyBs.png",
+    "file": "https://1.bp.blogspot.com/-nBmyHLP7r9s/WkNXpo81XVI/AAAAAAAAAEA/ec02fYUw8uUW_AU8i8P2Wtqdid0GukEAACLcBGAs/s1600/WATER.png",
     "hide": false,
-    "link": "http://nontonxxi.co/",
+    "link": "",
     "margin": "10",
     "position": "bottom-right"
   },
